@@ -1,0 +1,26 @@
+button{
+    margin-right: 50px;
+    width: 10vw;
+}
+
+#display{
+    width: 129px;
+    margin-left: 18px;
+}
+
+#display2{
+    width: 129px;
+    margin-left: 46px;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    border: 1px solid black;
+    padding: 20px;
+    width: 30vw;
+    height: 30vh;
+    padding-left: 50px;
+}
