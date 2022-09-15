@@ -1,4 +1,4 @@
-let stringa = 'Amo mia moglie'
+let stringa = 'Ciao Mondo'
 console.log(stringa)
 let stringaMaiuscola = stringa.toUpperCase()
 console.log(stringaMaiuscola)
@@ -10,6 +10,10 @@ let persone = [
     'Luca',
     'Fabio'
 ]
+let useSplit = stringa.split("", 10)
+console.log(useSplit)
+let useSplit2 = stringa.split('C')
+console.log(useSplit2)
 //aggiungere con .concat valori provenienti da altri array
 let add = ['Piero', 'Franco', 'Jonathan']
 
@@ -39,11 +43,11 @@ console.log( persone [0])
 
 
 /*function clickHere(){
-    let random = getRandomInteger(0, sorteggio.length - 1)
+    let random = getRandomInteger(0, persone.length - 1)
     
-    let sorteggioRandom = sorteggio[random]
+    let personeRandom = persone[random]
 
-    document.getElementById('display').write = sorteggioRandom
+    document.getElementById('display').write = personeRandom
 }
 
 function getRandomInteger(min, max) {
