@@ -1,4 +1,9 @@
-
+let stringa = 'Amo mia moglie'
+console.log(stringa)
+let stringaMaiuscola = stringa.toUpperCase()
+console.log(stringaMaiuscola)
+let stringaMinuscola = stringa.toLowerCase()
+console.log(stringaMinuscola)
 let persone = [
     'Giulio',
     'Marco',
